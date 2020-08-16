@@ -98,7 +98,7 @@ const App: React.FC = () => {
       >
         clear
       </button>
-      <div
+      <div className="button"
         style={{
           display: "grid",
           gridTemplateColumns: `repeat(${numCols}, 20px)`
